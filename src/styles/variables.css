@@ -1,0 +1,20 @@
+:root {
+  /* Azul Cury (extraído do Book) + paleta do Residencial */
+  --cury-blue: #283587;
+  --olive: #7f8760;
+  --terracotta: #75463d;
+  --gold: #e2c071;
+  --cream: #f1ebe2;
+  --white: #ffffff;
+  --font-primary: "Montserrat", Arial, Helvetica, sans-serif;
+  --text: #000000;            /* texto geral e subtítulos */
+  --title-size: 1.8rem;       /* CABEÇALHO de cada bloco (azul Cury, negrito) */
+  --subtitle-size: 1.3rem;    /* subtítulo (menor que o cabeçalho, em preto) */
+  --whatsapp: #25d366;
+  --container-width: 1180px;
+  --section-padding: 88px;
+  --navbar-height: 76px;
+  --radius: 20px;
+  --radius-lg: 28px;
+  --shadow: 0 10px 30px rgba(40, 53, 135, 0.14);
+}
