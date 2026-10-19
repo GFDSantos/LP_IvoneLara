@@ -137,16 +137,8 @@ const ivonelara = {
     compromisso: "Compromisso 1%: a Cury destina 1% do lucro líquido a iniciativas que ampliam oportunidades, promovem a inclusão e impulsionam o desenvolvimento social, com gestão do Instituto Cury.",
   },
 
-  ctaFinal: {
-    eyebrow: "Fale com a gente",
-    titulo: "Onde o samba virou sentimento, nasce um novo sonho seu",
-    texto: "Solicite uma simulação ou fale com um especialista pelo WhatsApp. Tabela de preços e plantas completas são apresentadas em visita presencial.",
-  },
 
-  legal:
-    "CCISA 154 Incorporadora Ltda. (Residencial Dona Ivone Lara). Autor do projeto/PRPA e responsável pela obra/PREO: Érico Franco Guimarães – CAU 21998171429. Projeto legal aprovado em 16/09/2026, conforme o processo nº 000258.000063/2026-91, emitido pela Prefeitura da Cidade do Rio de Janeiro. Para mais informações, consulte a central de vendas da Cury (CCISA 08 Consultoria Imobiliária Ltda.) – CRECI 23.670-J. Responsável técnico: Renato Silva Correia RJ-054793/O – Rua da Quitanda, nº 86, 7º andar, sala 701 – parte – Centro – CEP 20091-902 – Rio de Janeiro/RJ. As imagens apresentadas nos desenhos, artes, perspectivas, anúncios ou em qualquer outra forma de veiculação são meramente ilustrativas, bem como a reprodução da vegetação da maquete representa artisticamente a fase adulta das espécies. O empreendimento será entregue com a vegetação implantada por meio de mudas, conforme a especificação do projeto paisagístico. O projeto não possui vagas para veículos. Confira o memorial descritivo de clientes para mais informações. Consulte o corretor sobre o valor exato do benefício que a sua renda e a sua cidade dispõem.",
 };
-
 export const linkWhats = (msg = "Olá! Quero saber mais sobre o Residencial Dona Ivone Lara.") =>
   `https://wa.me/${ivonelara.contato.whatsapp}?text=${encodeURIComponent(msg)}`;
 

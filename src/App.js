@@ -3,7 +3,6 @@ import "./App.css";
 import "./styles/variables.css";
 import "./styles/global.css";
 import "./styles/sections.css";
-import d, { linkWhats } from "./data/ivonelara";
 
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
@@ -38,17 +37,6 @@ function App() {
       <MasterPlan />
       <Localizacao />
       <Trust />
-      <section className="cta-final">
-        <div className="cta-final-inner">
-          <p className="eyebrow">{d.ctaFinal.eyebrow}</p>
-          <h2 className="section-title">{d.ctaFinal.titulo}</h2>
-          <p>{d.ctaFinal.texto}</p>
-          <div className="btns">
-            <button className="btn-primary" onClick={abrir}>Solicitar Simulação</button>
-            <a className="btn-primary btn-whats" href={linkWhats()} target="_blank" rel="noopener noreferrer">Solicitar Atendimento</a>
-          </div>
-        </div>
-      </section>
       <WhatsAppButton />
       <Footer />
     </>
